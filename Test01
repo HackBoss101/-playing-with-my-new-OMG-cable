@@ -1,10 +1,11 @@
+REM This is the script I was using, but I don't know why it's not working
+
 GUI h
 DELAY 100
 GUI SPACE
 DELAY 150
 BACKSPACE
 DELAY 250
-REM This is the script I was using, but I don't know why it's not working
 STRING Safari
 DELAY 100
 ENTER
@@ -21,24 +22,3 @@ DELAY 100
 STRING www.youtube.com
 DELAY 250
 ENTER
-
-REM Title: RickRoll Apple
-REM Author:	Kalani (minor mod by UberGuidoZ)
-REM Kalani wrote the original code, just modded to a Rick Roll!
-REM
-REM Description: Opens Safari, enters YouTube link, goes full screen.
-REM Target:	Apple iOS (iPhone, iPad)
-REM Version:	1.0
-REM Category:	Prank
-REM Source: https://github.com/UberGuidoZ/OMG-Payloads
-GUI SPACE
-DELAY 300
-STRING Safari
-ENTER
-DELAY 500
-GUI t
-STRINGLN https://www.youtube.com/watch?v=xm3YgoEiEDc
-DELAY 500
-STRING f
-10:53 a. m.
-
